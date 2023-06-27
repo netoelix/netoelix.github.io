@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #143642;
+    color:aliceblue;
+}
+body{
+    font-family: sans-serif;
+}
+#indice {
+    font-weight: bold;
+    background-color: #0F8B8D;
+    list-style-type: none;
+}
+#about{
+    background-color: #DAD2D8;
+}
+#habilities{
+    background-color: #EC9A29;
+    list-style-type:circle;
+}
+#interests{
+    background-color: #DAD2D8;
+}
