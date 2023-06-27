@@ -14,5 +14,12 @@ body{
     list-style-type: none;
 }
 #about{
-
+    background-color: #DAD2D8;
+}
+#habilities{
+    background-color: #EC9A29;
+    list-style-type:circle;
+}
+#interests{
+    background-color: #DAD2D8;
 }
