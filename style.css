@@ -28,21 +28,24 @@
 .indice li a{
     color: white;
 }
-.about{
-    display: inline-block;
-}
-.picture {
+.under{
     background-color: #0F8B8D;
-    display: inline-block;
+    padding-bottom: 5%;
+}
+.about{
+    background-color: #86BBD8;
+    border: 10px solid #0F8B8D;
+    border-radius: 100px;
+    padding: 75px;
 }
 .picture img {
-    width: 300px;
+    width: 234px;
     border-radius: 10px;
-    display: inline-block;
+    float: left;
+    border: 10px solid #0F8B8D;
 }
 .habilities{
     background-color: #EC9A29;
-    list-style-type:circle;
 }
 .interests{
     background-color: #DAD2D8;
