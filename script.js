@@ -1,0 +1,1 @@
+const createElements = (element) => document.createElement(element);

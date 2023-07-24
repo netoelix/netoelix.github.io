@@ -25,6 +25,7 @@ body {
 }
 .title h1 {
     padding: 5px 0px 5px 0px;
+    text-shadow: 2px 2px 4px black;
 }
 .indice {
     display: flex;
@@ -84,16 +85,12 @@ body {
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(2, 0, 0, 0.9);
 }
-.back-interests{
+.back-portifolio{
     background-color: #DAD2D8;
     border: 10px solid #DAD2D8;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-.interests a {
-    color: black;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 footer {
     background-color: #143642;
