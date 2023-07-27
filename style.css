@@ -78,13 +78,6 @@ body {
 .about p{
     display: inline-block;
 }
-/* #back-habilities{
-    background-color: #EC9A29;
-    border: 10px solid #EC9A29;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(2, 0, 0, 0.9);
-} */
 #back-portifolio{
     background-color: #DAD2D8;
     border: 10px solid #DAD2D8;
@@ -104,7 +97,7 @@ body {
 .project h2 {
     text-align: center;
 }
-button {
+.textClick {
     text-align: center;
     background-color: #ec9b296b;
     border: 1px solid #EC9A29;
@@ -113,7 +106,7 @@ button {
     margin: 0 auto;
 }
 .expandable-content {
-    display: block;
+    display: none;
 }
 .textClick {
     font-style: italic;

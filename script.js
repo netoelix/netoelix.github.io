@@ -1,4 +1,5 @@
 const createElements = (element) => document.createElement(element);
+let buttons;
 
 fetch('./data.json')
   .then(response => response.json())
@@ -22,12 +23,12 @@ const creatProjectList = (data) => {
     const newTextTechnology = createElements('p');
     const newTextHowToUse = createElements('p');
     const newTextResources = createElements('p');
-    
+
     projectListContainer.appendChild(newArticle);
     newArticle.appendChild(newTitle);
     newArticle.className = 'project';
-    // newArticle.appendChild(newButton);
-    // newButton.className = 'textClick';
+    newArticle.appendChild(newButton);
+    newButton.className = 'textClick';
     newArticle.appendChild(newDiv);
     newDiv.className = 'expandable-content';
     newDiv.appendChild(newLink);
@@ -42,7 +43,7 @@ const creatProjectList = (data) => {
     newTextResources.className = 'resources';
 
     newTitle.innerText = data[index].id;
-    // newButton.innerText = 'Clique para expandir/recolher';
+    newButton.innerText = 'Clique para expandir/recolher';
     newLink.href = data[index].location;
     newLink.innerText = 'Link do projeto';
     newLink.target = '_blank';
@@ -51,12 +52,16 @@ const creatProjectList = (data) => {
     newTextHowToUse.innerHTML = `Como funciona:<br></br>${data[index].howToUse}`;
     newTextResources.innerHTML = `Recursos:<br></br>${data[index].resources}`;
   }
+  buttons = document.querySelectorAll('.textClick');
+  console.log(buttons);
+  buttons.forEach(element => {
+    element.addEventListener('click', () => {
+      const nextItem = element.nextElementSibling;
+      if (nextItem.style.display === 'none') {
+        nextItem.style.display = 'block';
+      } else {
+        nextItem.style.display = 'none';
+      }
+    })
+  });
 }
-
-// const clickExpand = (element) => {
-//     element.addEventListener('click', () => {
-//         if (element.className === 'textClick') {
-//             element.nextElementSibling.style.display = 'none';
-//         }
-//     })
-// }
