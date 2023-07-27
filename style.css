@@ -78,19 +78,54 @@ body {
 .about p{
     display: inline-block;
 }
-.back-habilities{
+/* #back-habilities{
     background-color: #EC9A29;
     border: 10px solid #EC9A29;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(2, 0, 0, 0.9);
-}
-.back-portifolio{
+} */
+#back-portifolio{
     background-color: #DAD2D8;
     border: 10px solid #DAD2D8;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+.project {
+    background-color: #ec9b296b;
+    border: 10px solid #EC9A29;
+    border-radius: 100px;
+    padding: 40px;
+    margin: 1%;
+    overflow: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+.project h2 {
+    text-align: center;
+}
+#displayOnOff {
+    display: none;
+}
+.textClick {
+    text-align: center;
+    font-style: italic;
+}
+.linkAcess{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+.aboutText {
+    padding-top: 20px;
+}
+.technology, .howToUse, .resources {
+    padding-top: 20px;
+    border: 10px double #EC9A29;
+    background-color: #DAD2D8;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
 }
 footer {
     background-color: #143642;
