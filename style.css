@@ -104,17 +104,27 @@ body {
 .project h2 {
     text-align: center;
 }
-#displayOnOff {
-    display: none;
+button {
+    text-align: center;
+    background-color: #ec9b296b;
+    border: 1px solid #EC9A29;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+.expandable-content {
+    display: block;
 }
 .textClick {
-    text-align: center;
     font-style: italic;
 }
 .linkAcess{
     text-align: center;
     color: black;
     text-decoration: underline;
+    display: block;
+    margin: 0 auto;
+    margin: 10px;
 }
 .aboutText {
     padding-top: 20px;

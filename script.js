@@ -15,7 +15,7 @@ const creatProjectList = (data) => {
   for (let index = 0; index < data.length; index += 1) {
     const newArticle = createElements('article');
     const newTitle = createElements('h2');
-    const newTextClick = createElements('p');
+    const newButton = createElements('button');
     const newDiv = createElements('div');
     const newLink = createElements('a');
     const newTextAbout = createElements('p');
@@ -26,10 +26,10 @@ const creatProjectList = (data) => {
     projectListContainer.appendChild(newArticle);
     newArticle.appendChild(newTitle);
     newArticle.className = 'project';
-    newArticle.appendChild(newTextClick);
-    newTextClick.className = 'textClick';
+    // newArticle.appendChild(newButton);
+    // newButton.className = 'textClick';
     newArticle.appendChild(newDiv);
-    newDiv.id = 'displayOnOff';
+    newDiv.className = 'expandable-content';
     newDiv.appendChild(newLink);
     newLink.className = 'linkAcess';
     newDiv.appendChild(newTextAbout);
@@ -42,7 +42,7 @@ const creatProjectList = (data) => {
     newTextResources.className = 'resources';
 
     newTitle.innerText = data[index].id;
-    newTextClick.innerText = 'Clice no titulo para expandir';
+    // newButton.innerText = 'Clique para expandir/recolher';
     newLink.href = data[index].location;
     newLink.innerText = 'Link do projeto';
     newLink.target = '_blank';
@@ -53,3 +53,10 @@ const creatProjectList = (data) => {
   }
 }
 
+// const clickExpand = (element) => {
+//     element.addEventListener('click', () => {
+//         if (element.className === 'textClick') {
+//             element.nextElementSibling.style.display = 'none';
+//         }
+//     })
+// }
