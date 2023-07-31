@@ -8,6 +8,7 @@ const memeImg = getById('meme-image');
 const buttons = document.querySelectorAll('.buttonChange');
 const memes = document.querySelectorAll('.meme-option');
 const saveButton = document.getElementById('save-meme');
+let selectedEffect = '';
 
 inputText.addEventListener('input', () => {
   const text = inputText.value.trim();
@@ -30,10 +31,13 @@ buttons.forEach((button) => {
   button.addEventListener('click', (event) => {
     if (event.target.id === 'fire') {
       container.style.border = '3px dashed rgb(255, 0, 0)';
+      selectedEffect = 'fire';
     } else if (event.target.id === 'water') {
       container.style.border = '5px double rgb(0, 0, 255)';
+      selectedEffect = 'water';
     } else if (event.target.id === 'earth') {
       container.style.border = '6px groove rgb(0, 128, 0)';
+      selectedEffect = 'earth';
     }
   });
 });
@@ -53,6 +57,19 @@ saveButton.addEventListener('click', () => {
 
   const ctx = canvas.getContext('2d');
 
+  if (selectedEffect === 'fire') {
+    ctx.strokeStyle = 'red';
+    ctx.lineWidth = 3;
+    ctx.strokeRect(0, 0, canvas.width, canvas.height);
+  } else if (selectedEffect === 'water') {
+    ctx.strokeStyle = 'blue';
+    ctx.lineWidth = 5;
+    ctx.strokeRect(0, 0, canvas.width, canvas.height);
+  } else if (selectedEffect === 'earth') {
+    ctx.strokeStyle = 'green';
+    ctx.lineWidth = 6;
+    ctx.strokeRect(0, 0, canvas.width, canvas.height);
+  }
   ctx.drawImage(memeImg, 0, 0, canvas.width, canvas.height);
 
   ctx.font = '600 30px sans-serif';
