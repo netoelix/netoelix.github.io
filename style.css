@@ -50,9 +50,9 @@ body {
 .indice th {
     display: inline;
     font-weight: bold;
-    background-color: #143642;
+    background-color: #165959;
     list-style-type: none;
-    border: 1px solid black;
+    /* border: 5px solid #144F3E; */
     width: auto;
     height: auto;
     margin: auto;
@@ -80,9 +80,9 @@ body {
 .language {
     justify-content: flex-end;
     font-weight: bold;
-    background-color: #0F8B8D;
+    background-color: #165959;
     list-style-type: none;
-    border: 1px solid black;
+    border: 5px solid #165959;
     border-radius: 100px;
     padding: 5px;
     margin: 10px;
@@ -123,18 +123,24 @@ body {
 }
 
 .about {
-    background-color: #86BBD8;
-    border: 10px solid #0F8B8D;
+    background-color: #163659;
+    border: 10px solid #163659;
     border-radius: 100px;
     padding: 40px;
     overflow: auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
 
+.about p {
+    text-align: justify;
+    color: white;
+}
+
 .under img {
     width: 150px;
+    margin-bottom: 10px;
     border-radius: 200px;
-    border: 10px solid #0F8B8D;
+    border: 10px solid #165959;
     margin-right: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
 }
@@ -144,16 +150,20 @@ body {
 }
 
 #back-portifolio {
-    background-color: #DAD2D8;
-    border: 10px solid #DAD2D8;
+    display: flex;
+    justify-content: center;
+    background-color: #165959;
+    border: 10px solid #165959;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
 }
 
 .project {
-    background-color: #ec9b296b;
-    border: 10px solid #EC9A29;
+    background-color: #14204F;
+    border: 10px solid #14204F;
     border-radius: 100px;
     padding: 40px;
     margin: 1%;
@@ -163,12 +173,16 @@ body {
 
 .project h2 {
     text-align: center;
+    color: white;
+}
+.expandable-content a {
+    color: white;
 }
 
 .textClick {
     text-align: center;
-    background-color: #ec9b296b;
-    border: 1px solid #EC9A29;
+    background-color: #163659;
+    border: 1px solid #144F3E;
     align-items: center;
     display: block;
     margin: 0 auto;
@@ -182,6 +196,7 @@ body {
 }
 
 .textClick {
+    color: white;
     font-style: italic;
 }
 
@@ -202,17 +217,22 @@ body {
 .howToUse,
 .resources,
 .aboutText {
+    text-align: justify;
     padding-top: 20px;
-    border: 10px double #EC9A29;
-    background-color: #DAD2D8;
+    border: 10px double #163659;
+    background-color: #163659;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
+    color: white;
 }
 
 footer {
     background-color: #143642;
     color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Estilos para dispositivos móveis */
@@ -237,5 +257,8 @@ footer {
     .indice i {
         font-size: 35px;
         padding: 15px;
+    }
+    #back-portifolio {
+        flex-direction: column;
     }
 }
