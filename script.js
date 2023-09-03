@@ -53,7 +53,6 @@ const creatProjectList = (data) => {
     newTextResources.innerHTML = `Recursos:<br></br>${data[index].resources}`;
   }
   buttons = document.querySelectorAll('.textClick');
-  console.log(buttons);
   buttons.forEach(element => {
     element.addEventListener('click', () => {
       const nextItem = element.nextElementSibling;
