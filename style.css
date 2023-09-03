@@ -1,10 +1,7 @@
-/* Estilos padrão para todos os dispositivos */
-
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    text-decoration: none;
 }
 
 body {
@@ -35,161 +32,40 @@ body {
     text-shadow: 2px 2px 4px black;
 }
 
-.indice {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.indice i {
-    font-size: 30px;
-    padding: 15px;
-}
-
-.indice th {
-    display: inline;
-    font-weight: bold;
-    background-color: #0F8B8D;
-    list-style-type: none;
-    border: 1px solid black;
-    width: auto;
-    height: auto;
-    margin: auto;
-    border-radius: 100px;
-    display: inline-block;
-    padding: 5px;
-    margin: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.indice table a {
-    color: white;
-}
-
-.under {
-    background-color: #0F8B8D;
-    padding-bottom: 5px;
-    display: flex;
-    align-items: center;
-    padding-top: 125px;
-    margin: 1%;
-    margin-top: 0;
-}
-
-.about {
-    background-color: #86BBD8;
-    border: 10px solid #0F8B8D;
-    border-radius: 100px;
-    padding: 40px;
-    overflow: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.under img {
-    width: 150px;
-    border-radius: 200px;
-    border: 10px solid #0F8B8D;
-    margin-right: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.about p {
-    display: inline-block;
-}
-
-#back-portifolio {
-    background-color: #DAD2D8;
-    border: 10px solid #DAD2D8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.project {
-    background-color: #ec9b296b;
-    border: 10px solid #EC9A29;
-    border-radius: 100px;
-    padding: 40px;
-    margin: 1%;
-    overflow: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.project h2 {
-    text-align: center;
-}
-
-.textClick {
-    text-align: center;
-    background-color: #ec9b296b;
-    border: 1px solid #EC9A29;
-    align-items: center;
-    display: block;
-    margin: 0 auto;
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 100px;
-}
-
-.expandable-content {
-    display: none;
-}
-
-.textClick {
-    font-style: italic;
-}
-
-.linkAcess {
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-    display: block;
-    margin: 0 auto;
-    margin: 10px;
-}
-
-.aboutText {
-    padding-top: 20px;
-}
-
-.technology,
-.howToUse,
-.resources,
-.aboutText {
-    padding-top: 20px;
-    border: 10px double #EC9A29;
-    background-color: #DAD2D8;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 5px;
-}
-
 footer {
     background-color: #143642;
     color: aliceblue;
 }
 
-/* Estilos para dispositivos móveis */
+main {
+    display: flex;
+    justify-content: center;
+}
 
-@media screen and (max-width: 1000px) {
-    .back-title {
-        height: 120px;
-    }
+.language {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column
+}
+.brazilian {
+    background: linear-gradient(to right, green, yellow, blue);
+}
+.united {
+    background: linear-gradient(to right, blue, white, red);
+}
 
-    .under {
-        flex-direction: column;
-        padding-top: 120px;
-    }
+button {
+    padding: 50px;
+    border: 5px solid #143642;
+    border-radius: 50px;
+    margin: 10px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+}
 
-    .under img {
-        margin: 10px;
-    }
-
-    .title {
-        font-size: 1em;
-    }
-    .indice i {
-        font-size: 35px;
-        padding: 15px;
-    }
+a {
+    text-decoration: none;
+    color: black;
 }
