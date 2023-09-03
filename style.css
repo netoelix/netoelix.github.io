@@ -152,6 +152,7 @@ body {
 #back-portifolio {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     background-color: #165959;
     border: 10px solid #165959;
     border-top-left-radius: 10px;
