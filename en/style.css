@@ -24,7 +24,8 @@ body {
 }
 
 .title {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: aliceblue;
@@ -49,7 +50,7 @@ body {
 .indice th {
     display: inline;
     font-weight: bold;
-    background-color: #0F8B8D;
+    background-color: #143642;
     list-style-type: none;
     border: 1px solid black;
     width: auto;
@@ -66,12 +67,57 @@ body {
     color: white;
 }
 
+.flexButton {
+    display: flex;
+    align-items: center;
+}
+
+.flexText {
+    display: flex;
+    align-items: center
+}
+
+.language {
+    justify-content: flex-end;
+    font-weight: bold;
+    background-color: #0F8B8D;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    align-items: center
+}
+
+.language a {
+    text-decoration: none;
+    color: white;
+}
+
+.language i {
+    font-size: 30px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.about-me h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
 .under {
     background-color: #0F8B8D;
     padding-bottom: 5px;
     display: flex;
     align-items: center;
-    padding-top: 125px;
+    padding-top: 80px;
     margin: 1%;
     margin-top: 0;
 }
@@ -173,12 +219,12 @@ footer {
 
 @media screen and (max-width: 1000px) {
     .back-title {
-        height: 120px;
+        height: 80px;
     }
 
     .under {
         flex-direction: column;
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .under img {
