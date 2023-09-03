@@ -71,7 +71,6 @@ saveButton.addEventListener('click', () => {
   const y = canvas.height / 2 + 150;
   ctx.fillText(memeText, x, y);
 
-  // Add the selected effect after drawing the image
   if (selectedEffect === 'fire') {
     ctx.strokeStyle = 'red';
     ctx.lineWidth = 3;
