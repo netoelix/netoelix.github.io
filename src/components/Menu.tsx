@@ -1,8 +1,11 @@
+import { NavLink } from 'react-router-dom';
+
 function Menu() {
   return (
-    <div>
-      <h1>Aqui tem um menu</h1>
-    </div>
+    <nav>
+      <NavLink to="/">Home</NavLink>
+      <NavLink to="/projects">Projetos</NavLink>
+    </nav>
   );
 }
 export default Menu;
