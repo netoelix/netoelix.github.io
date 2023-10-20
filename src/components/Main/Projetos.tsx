@@ -1,10 +1,11 @@
+// import { NavLink } from 'react-router-dom';
 import data from '../../assets/data/data.json';
 
 function Projetos() {
   return (
     <section>
       <h2>Meus projetos</h2>
-      {/* {data.map(({ id, about, technology, howToUse, resources }) => {
+      {data.map(({ id, about, technology, howToUse, resources }) => {
         return (
           <article key={ id }>
             <h3>{id}</h3>
@@ -14,10 +15,7 @@ function Projetos() {
             <p>{resources}</p>
           </article>
         );
-      })} */}
-      <p>
-        PAGINA EM CONSTRUÇÃO
-      </p>
+      })}
     </section>
   );
 }
