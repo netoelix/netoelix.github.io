@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './components/Home';
+import Home from './components/Main/Home';
 import NotFound from './components/NotFound';
-import Projetos from './components/Projetos';
+import Projetos from './components/Main/Projetos';
 
 function App() {
   return (
@@ -10,8 +10,8 @@ function App() {
       <Route path="/" element={ <Layout /> }>
         <Route index element={ <Home /> } />
         <Route path="/projects" element={ <Projetos /> } />
+        <Route path="*" element={ <NotFound /> } />
       </Route>
-      <Route path="*" element={ <NotFound /> } />
     </Routes>
   );
 }
