@@ -11,6 +11,7 @@ export const ProjectsContainer = styled.section`
   justify-content: space-around;
   align-items: center;
   padding-top: 150px;
+  margin-bottom: 10px;
   h2 {
     font-size: 2em;
     font-weight: bold;

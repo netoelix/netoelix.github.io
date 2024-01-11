@@ -49,6 +49,7 @@ export const MainContainer = styled.div`
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
+    color: black;
   }
   button {
     border-radius: 30px;

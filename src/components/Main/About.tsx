@@ -14,6 +14,14 @@ function About() {
             {' '}
             {nameUser.name}
           </h2>
+          <h3>Minhas habilidades</h3>
+          <div>
+            <BiLogoHtml5 />
+            <BiLogoCss3 />
+            <BiLogoJavascript />
+            <BiLogoReact />
+            <BiLogoGithub />
+          </div>
           <p>
             Sou estudante na Trybe, cursando desenvolvimento web full-stack,
             e atualmente resido no entorno de Brasília-DF.
@@ -44,18 +52,6 @@ function About() {
             Estou entusiasmado com a perspectiva de contribuir positivamente para
             a equipe e para os projetos futuros.
           </p>
-        </article>
-      </SectionContainer>
-      <SectionContainer>
-        <article>
-          <h2>Minhas habilidades</h2>
-          <div>
-            <BiLogoHtml5 />
-            <BiLogoCss3 />
-            <BiLogoJavascript />
-            <BiLogoReact />
-            <BiLogoGithub />
-          </div>
         </article>
       </SectionContainer>
     </AboutContainer>

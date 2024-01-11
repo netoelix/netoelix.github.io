@@ -1,8 +1,10 @@
+import { FooterContainer } from '../styles/StyledFooter';
+
 function Footer() {
   return (
-    <footer>
-      <span>Desenvolvido por Elix Merlino Neto, 2023</span>
-    </footer>
+    <FooterContainer>
+      <span>Desenvolvido por Elix Merlino Neto, 2024</span>
+    </FooterContainer>
   );
 }
 export default Footer;

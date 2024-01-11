@@ -11,6 +11,7 @@ export const CertificatesContainer = styled.section`
   justify-content: space-around;
   align-items: center;
   padding-top: 150px;
+  margin-bottom: 10px;
   h2 {
     font-size: 3em;
     font-weight: bold;
