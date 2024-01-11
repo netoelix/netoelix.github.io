@@ -1,10 +1,11 @@
 import javascript from '../../assets/certificados/javascript.jpg';
 import fundamentos from '../../assets/certificados/modulo-fundamentos.jpg';
 import frontEnd from '../../assets/certificados/modulo-front-end.jpg';
+import { CertificatesContainer } from '../../styles/StyledCertificates';
 
 function Skills() {
   return (
-    <section>
+    <CertificatesContainer>
       <h2>Meus certificados</h2>
       <article>
         <h3>Módulo de Front End</h3>
@@ -34,7 +35,7 @@ function Skills() {
           />
         </div>
       </article>
-    </section>
+    </CertificatesContainer>
   );
 }
 

@@ -9,7 +9,7 @@ const initialState = {
   name: '',
 };
 
-const saveNameReducer = (state = initialState, action: ActionType) => {
+export const saveNameReducer = (state = initialState, action: ActionType) => {
   switch (action.type) {
     case SAVE_NAME:
       return { ...state, name: action.payload };
@@ -17,5 +17,3 @@ const saveNameReducer = (state = initialState, action: ActionType) => {
       return state;
   }
 };
-
-export default saveNameReducer;

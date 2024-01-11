@@ -4,7 +4,7 @@ import Home from './components/Main/Home';
 import NotFound from './components/NotFound';
 import Projetos from './components/Main/Projetos';
 import Login from './components/Login';
-import Skills from './components/Main/Skills';
+import Skills from './components/Main/Certificates';
 import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
