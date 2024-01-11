@@ -23,8 +23,10 @@ export const CertificatesContainer = styled.section`
     justify-content: space-around;
     align-items: center;
     background-color: #165959;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 98%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     h3 {
     font-size: 2em;
     font-weight: bold;
@@ -39,9 +41,10 @@ export const CertificatesContainer = styled.section`
       align-items: center;
     }
     img {
-      width: 60%;
+      width: 70%;
       border-radius: 30px;
-      margin: 10px;
+      margin: 20px 0px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     }
   }
 `;

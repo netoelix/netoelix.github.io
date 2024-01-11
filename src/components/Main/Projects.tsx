@@ -1,9 +1,10 @@
 // import { NavLink } from 'react-router-dom';
 import data from '../../assets/data/data.json';
+import { ProjectsContainer } from '../../styles/StiledProject';
 
 function Projetos() {
   return (
-    <section>
+    <ProjectsContainer>
       <h2>Meus projetos</h2>
       {data.map(({ id, about, technology, howToUse, resources }) => {
         return (
@@ -16,7 +17,7 @@ function Projetos() {
           </article>
         );
       })}
-    </section>
+    </ProjectsContainer>
   );
 }
 
