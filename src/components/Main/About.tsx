@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
-import { BiLogoReact, BiLogoCss3, BiLogoHtml5, BiLogoJavascript, BiLogoGithub }
+import { BiLogoReact, BiLogoCss3, BiLogoHtml5, BiLogoJavascript,
+  BiLogoGithub, BiLogoTypescript, BiLogoRedux }
   from 'react-icons/bi';
 import { AboutContainer, SectionContainer } from '../../styles/StiledAbout';
 
@@ -19,7 +20,9 @@ function About() {
             <BiLogoHtml5 />
             <BiLogoCss3 />
             <BiLogoJavascript />
+            <BiLogoTypescript />
             <BiLogoReact />
+            <BiLogoRedux />
             <BiLogoGithub />
           </div>
           <p>
