@@ -1,16 +1,15 @@
 import { NavLink } from 'react-router-dom';
-import { LiaCertificateSolid } from 'react-icons/lia';
-import { GoProjectSymlink } from 'react-icons/go';
-import { CiHome } from 'react-icons/ci';
+import { PiCertificate, PiFolderOpen } from 'react-icons/pi';
+import { GoHome } from 'react-icons/go';
 import { HeaderMenu } from '../../styles/StiledHeader';
 
 function Menu() {
   return (
     <HeaderMenu>
       <nav>
-        <NavLink to="/home"><CiHome /></NavLink>
-        <NavLink to="/projects"><GoProjectSymlink /></NavLink>
-        <NavLink to="/certificates"><LiaCertificateSolid /></NavLink>
+        <NavLink to="/home"><GoHome /></NavLink>
+        <NavLink to="/projects"><PiFolderOpen /></NavLink>
+        <NavLink to="/certificates"><PiCertificate /></NavLink>
       </nav>
     </HeaderMenu>
   );
