@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.main`
-  height: 100vh;
+  height: 100%;
   background-color: #0F8B8D;
   color: #fff;
   display: flex;
@@ -10,6 +10,7 @@ export const HomeContainer = styled.main`
   align-content: center;
   justify-content: space-around;
   align-items: center;
+  padding-top: 150px;
 `;
 export const SectionContainer = styled.div`
   display: flex;
@@ -18,6 +19,13 @@ export const SectionContainer = styled.div`
   align-content: center;
   justify-content: center;
   align-items: center;
+    img {
+      width: 190px;
+      margin-bottom: 10px;
+      border-radius: 200px;
+      border: 10px solid #165959;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+    }
     h2 {
       font-size: 2em;
       font-weight: bold

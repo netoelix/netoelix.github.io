@@ -7,6 +7,7 @@ function Home() {
   return (
     <HomeContainer>
       <SectionContainer>
+        <img src="src/assets/imagens/profile.jpg" alt="profile" />
         <h2>Elix Merlino Neto</h2>
         <nav>
           <a href="https://www.linkedin.com/in/elixneto/" target="_blank" rel="noreferrer">
