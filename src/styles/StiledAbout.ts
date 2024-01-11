@@ -3,14 +3,14 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   align-items: center;
   border-radius:100px;
   background-color: #163659;
   border: 10px solid #163659;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-  margin: 15px;
+  margin: 0px 10px;
 `;
 
 export const SectionContainer = styled.section`
@@ -21,7 +21,7 @@ export const SectionContainer = styled.section`
   align-items: center;
 
   article {
-    margin: 30px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -29,15 +29,17 @@ export const SectionContainer = styled.section`
     align-items: center;
   }
   h2 {
-    font-size: 2em;
+    font-size: 1.7em;
     font-weight: bold;
-    margin: 20px;
+    margin: 10px;
   }
   p {
     text-align: justify;
     font-size: 1.3em;
+    margin: 10px 0px;
   }
   svg {
     font-size: 3em;
+    margin: 10px;
   }
 `;

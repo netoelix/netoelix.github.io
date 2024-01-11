@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const HomeContainer = styled.main`
-  width: 100%;
   height: 100vh;
   background-color: #0F8B8D;
   color: #fff;
@@ -26,7 +25,7 @@ export const SectionContainer = styled.div`
     nav {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -39,13 +38,17 @@ export const SectionContainer = styled.div`
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    margin: 20px;
     text-decoration: none;
     font-size: 1em;
-    font-weight: bold
+    font-weight: bold;
+    background-color: #165959;
+    border-radius: 50px;
+    margin: 20px;
+    width: 90px;
+    height: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     }
     svg {
-      font-size: 50px;
-      margin: 20px;
+      font-size: 35px;
     }
 `;
