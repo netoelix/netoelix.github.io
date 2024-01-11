@@ -1,23 +1,34 @@
-import { BsInstagram, BsGithub, BsLinkedin, BsFillRocketTakeoffFill, BsRocket }
+import { BsInstagram, BsGithub, BsLinkedin, BsRocket }
   from 'react-icons/bs';
-import Skills from './Skills';
 import About from './About';
+import { HomeContainer, SectionContainer } from '../../styles/StiledHome';
 
 function Home() {
   return (
-    <main>
-      <div>
+    <HomeContainer>
+      <SectionContainer>
         <h2>Elix Merlino Neto</h2>
         <nav>
-          <a href="https://www.linkedin.com/in/elixneto/" target="_blank" rel="noreferrer"><BsLinkedin /></a>
-          <a href="https://github.com/netoelix/" target="_blank" rel="noreferrer"><BsGithub /></a>
-          <a href="https://www.instagram.com/elixneto/" target="_blank" rel="noreferrer"><BsInstagram /></a>
-          <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer"><BsRocket /></a>
+          <a href="https://www.linkedin.com/in/elixneto/" target="_blank" rel="noreferrer">
+            Linkedin
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/netoelix/" target="_blank" rel="noreferrer">
+            GitHub
+            <BsGithub />
+          </a>
+          <a href="https://www.instagram.com/elixneto/" target="_blank" rel="noreferrer">
+            Instagram
+            <BsInstagram />
+          </a>
+          <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer">
+            Trybe
+            <BsRocket />
+          </a>
         </nav>
-      </div>
+      </SectionContainer>
       <About />
-      <Skills />
-    </main>
+    </HomeContainer>
   );
 }
 

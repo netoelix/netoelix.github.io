@@ -1,11 +1,15 @@
 import { NavLink } from 'react-router-dom';
+import { HeaderMenu } from '../../styles/StiledHeader';
 
 function Menu() {
   return (
-    <nav>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/projects">Projetos</NavLink>
-    </nav>
+    <HeaderMenu>
+      <nav>
+        <NavLink to="/home">Home</NavLink>
+        <NavLink to="/projects">Projetos</NavLink>
+        <NavLink to="/certificates">Certificados</NavLink>
+      </nav>
+    </HeaderMenu>
   );
 }
 export default Menu;
