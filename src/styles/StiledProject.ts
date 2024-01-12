@@ -18,6 +18,14 @@ export const ProjectsContainer = styled.section`
     margin: 10px;
   }
   article {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     background-color: #14204F;
     border: 10px solid #14204F;
     border-radius: 100px;
@@ -34,6 +42,19 @@ export const ProjectsContainer = styled.section`
     text-align: justify;
     font-size: 1.3em;
     margin: 10px 0px;
-  }
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      margin: 10px;
+    }
+    .carouselImg {
+      height: 90%;
+      img {
+        max-width: 1500px;
+        max-height: 900px;
+        z-index: 0;
+      }
+    }
   }
 `;

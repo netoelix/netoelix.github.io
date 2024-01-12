@@ -15,6 +15,7 @@ export const HeaderContainer = styled.div`
   border-bottom-right-radius: 10px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   padding-top: 15px;
+  z-index: 10;
 `;
 
 export const HeaderMenu = styled.div`
