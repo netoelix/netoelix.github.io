@@ -1,8 +1,6 @@
 import { useSelector } from 'react-redux';
-import { BiLogoReact, BiLogoCss3, BiLogoHtml5, BiLogoJavascript,
-  BiLogoGithub, BiLogoTypescript, BiLogoRedux }
-  from 'react-icons/bi';
 import { AboutContainer, SectionContainer } from '../../styles/StiledAbout';
+import Skills from './Skills';
 
 function About() {
   const nameUser = useSelector((state: any) => state.saveNameReducer.name);
@@ -15,16 +13,7 @@ function About() {
             {' '}
             {nameUser.name}
           </h2>
-          <h3>Minhas habilidades</h3>
-          <div>
-            <BiLogoHtml5 />
-            <BiLogoCss3 />
-            <BiLogoJavascript />
-            <BiLogoTypescript />
-            <BiLogoReact />
-            <BiLogoRedux />
-            <BiLogoGithub />
-          </div>
+          <Skills />
           <p>
             Sou estudante na Trybe, cursando desenvolvimento web full-stack,
             e atualmente resido no entorno de Brasília-DF.

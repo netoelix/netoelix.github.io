@@ -3,7 +3,7 @@ import fundamentos from '../../assets/certificados/modulo-fundamentos.jpg';
 import frontEnd from '../../assets/certificados/modulo-front-end.jpg';
 import { CertificatesContainer } from '../../styles/StyledCertificates';
 
-function Skills() {
+function Certificates() {
   return (
     <CertificatesContainer>
       <h2>Meus certificados</h2>
@@ -39,4 +39,4 @@ function Skills() {
   );
 }
 
-export default Skills;
+export default Certificates;

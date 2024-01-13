@@ -4,7 +4,7 @@ import Home from './components/Main/Home';
 import NotFound from './components/NotFound';
 import Projetos from './components/Main/Projects';
 import Login from './components/Login';
-import Skills from './components/Main/Certificates';
+import Certificates from './components/Main/Certificates';
 import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         <Route element={ <Layout /> }>
           <Route path="/home" element={ <Home /> } />
           <Route path="/projects" element={ <Projetos /> } />
-          <Route path="certificates" element={ <Skills /> } />
+          <Route path="certificates" element={ <Certificates /> } />
           <Route path="*" element={ <NotFound /> } />
         </Route>
       </Routes>
