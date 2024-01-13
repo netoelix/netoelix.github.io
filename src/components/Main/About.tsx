@@ -9,9 +9,10 @@ function About() {
       <SectionContainer>
         <article>
           <h2>
-            Um pouco sobre mim,
-            {' '}
             {nameUser.name}
+            ,
+            {' '}
+            um pouco sobre mim.
           </h2>
           <Skills />
           <p>
