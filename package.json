@@ -3,14 +3,16 @@
   "version": "2.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://netoelix.github.io",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "tsc && vite build",
     "coverage": "vitest run --coverage",
     "dev": "vite --open",
     "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview",
-    "test": "vitest",
-    "deploy": "gh-pages -d dist"
+    "test": "vitest"
   },
   "dependencies": {
     "@redux-devtools/extension": "^3.2.5",
