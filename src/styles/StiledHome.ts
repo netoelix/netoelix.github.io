@@ -15,21 +15,10 @@ export const HomeContainer = styled.main`
 export const SectionContainer = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-content: center;
   justify-content: center;
   align-items: center;
-    img {
-      width: 190px;
-      margin-bottom: 10px;
-      border-radius: 200px;
-      border: 10px solid #165959;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
-    }
-    h2 {
-      font-size: 2em;
-      font-weight: bold
-    }
     nav {
     display: flex;
     flex-direction: row;
@@ -58,5 +47,28 @@ export const SectionContainer = styled.div`
     }
     svg {
       font-size: 35px;
+    }
+    h2 {
+      font-size: 5em;
+      font-weight: bold
+    }
+    h3 {
+      font-size: 3em;
+      font-weight: bold
+    }
+`;
+export const ImgContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  img {
+      width: 300px;
+      margin: 50px;
+      border-radius: 200px;
+      border: 10px solid #165959;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     }
 `;

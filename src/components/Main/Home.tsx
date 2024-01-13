@@ -1,14 +1,19 @@
 import { BsInstagram, BsGithub, BsLinkedin, BsRocket }
   from 'react-icons/bs';
 import About from './About';
-import { HomeContainer, SectionContainer } from '../../styles/StiledHome';
+import { HomeContainer, SectionContainer, ImgContainer } from '../../styles/StiledHome';
 
 function Home() {
   return (
     <HomeContainer>
       <SectionContainer>
-        <img src="src/assets/imagens/profile.jpg" alt="profile" />
-        <h2>Elix Merlino Neto</h2>
+        <ImgContainer>
+          <img src="src/assets/imagens/profile.jpg" alt="profile" />
+          <section>
+            <h2>Elix Merlino Neto</h2>
+            <h3>Desenvolvedor Web</h3>
+          </section>
+        </ImgContainer>
         <nav>
           <a href="https://www.linkedin.com/in/elixneto/" target="_blank" rel="noreferrer">
             <BsLinkedin />

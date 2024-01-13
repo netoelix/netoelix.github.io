@@ -48,13 +48,5 @@ export const ProjectsContainer = styled.section`
       color: #fff;
       margin: 10px;
     }
-    .carouselImg {
-      height: 90%;
-      img {
-        max-width: 1500px;
-        max-height: 900px;
-        z-index: 0;
-      }
-    }
   }
 `;
