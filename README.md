@@ -6,9 +6,9 @@ Este documento descreve o projeto pessoal "Elix Merlino Neto", uma página desen
 
 ## Tecnologias Utilizadas
 
-- HTML: Utilizado para criar a estrutura do conteúdo da página.
-- CSS: Utilizado para estilizar a página, definindo cores, fontes, posicionamento dos elementos e efeitos visuais.
-- JavaScript: Utilizado para adicionar interatividade à página, incluindo botões de clique para expandir e recolher informações adicionais.
+- React: Utilizado para criar a estrutura do conteúdo da página.
+- React Component: Utilizado para estilizar a página, definindo cores, fontes, posicionamento dos elementos e efeitos visuais.
+- Typescript: Utilizado para adicionar interatividade à página, incluindo botões de clique para expandir e recolher informações adicionais.
 - Fetch API: Utilizado para buscar e carregar dados do arquivo JSON externo contendo informações sobre os projetos.
 - JSON: Utilizado para armazenar informações estruturadas sobre os projetos, como título, descrição, tecnologias, recursos e links.
 
@@ -34,5 +34,5 @@ A página "Elix Merlino Neto" pode ser acessada através do seguinte link: [http
 
 O projeto "Elix Merlino Neto" é um testemunho da paixão de Elix Merlino Neto pela área de desenvolvimento web e sua determinação em realizar uma mudança de carreira significativa. Através do uso de tecnologias como HTML, CSS e JavaScript, a página oferece uma experiência envolvente para os visitantes conhecerem sua história e seus projetos.
 
-Data: 27 de Julho de 2023
+Data: 11 de Janeiro de 2024
 Autor: Elix Merlino Neto
