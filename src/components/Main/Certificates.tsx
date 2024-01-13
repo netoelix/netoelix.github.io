@@ -6,7 +6,6 @@ import { CertificatesContainer } from '../../styles/StyledCertificates';
 function Certificates() {
   return (
     <CertificatesContainer>
-      <h2>Meus certificados</h2>
       <article>
         <h3>Módulo de Front End</h3>
         <div>

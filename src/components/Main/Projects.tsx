@@ -4,25 +4,23 @@ import { ProjectsContainer } from '../../styles/StiledProject';
 function Projetos() {
   return (
     <ProjectsContainer>
-      <h2>Meus projetos</h2>
-      {data.map(({ id, location, images }) => {
-        return (
-          <article key={ id }>
-            <h3>{id}</h3>
-            <a href={ location } target="_blank" rel="noreferrer">Repositório</a>
-            <div className="carouselImg">
-              {images.map((image, index) => (
+      <div>
+        {data.map(({ id, location, images }) => {
+          return (
+            <article key={ id }>
+              <h3>{id}</h3>
+              <a href={ location } target="_blank" rel="noreferrer">Repositório</a>
+              <div className="carouselImg">
                 <img
-                  key={ index }
-                  src={ image }
-                  alt=""
+                  key={ id }
+                  src={ images }
+                  alt={ id }
                 />
-              ))}
-            </div>
-            <p>Em construção</p>
-          </article>
-        );
-      })}
+              </div>
+            </article>
+          );
+        })}
+      </div>
     </ProjectsContainer>
   );
 }
