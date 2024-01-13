@@ -10,35 +10,39 @@ function Header() {
     if (pathActual.path === '/home') {
       return (
         <h1>
-          Este é o meu portifólio,
-          {' '}
           {nameUser.name}
+          ,
+          {' '}
+          este é o meu portifólio.
         </h1>
       );
     }
     if (pathActual.path === '/projects') {
       return (
         <h1>
-          Este são os meus projetos,
-          {' '}
           {nameUser.name}
+          ,
+          {' '}
+          este são os meus projetos.
         </h1>
       );
     }
     if (pathActual.path === '/certificates') {
       return (
         <h1>
-          Este são os meus certificados,
-          {' '}
           {nameUser.name}
+          ,
+          {' '}
+          este são os meus certificados.
         </h1>
       );
     }
     return (
       <h1>
-        Este é o meu portifólio,
-        {' '}
         {nameUser.name}
+        ,
+        {' '}
+        este é o meu portifólio.
       </h1>
     );
   }

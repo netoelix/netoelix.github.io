@@ -1,12 +1,12 @@
 {
   "name": "portifolio-elix",
-  "version": "0.0.0",
+  "version": "2.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "tsc && vite build",
     "coverage": "vitest run --coverage",
-    "dev": "vite --open",
+    "dev": "vite --open --host --port 3000",
     "lint": "eslint -c .eslintrc.json . --ext .js,.jsx,.ts,.tsx",
     "preview": "vite preview",
     "test": "vitest",
