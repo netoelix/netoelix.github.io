@@ -43,5 +43,12 @@ export const CertificatesContainer = styled.section`
       margin: 20px 0px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
     }
+    @media screen and (max-width: 1000px) {
+      margin: 50px 0px 20px;
+      img {
+        width: 90%;
+        border-radius: 15px;
+      }
+  }
   }
 `;

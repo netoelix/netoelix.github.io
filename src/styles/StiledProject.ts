@@ -59,4 +59,13 @@ export const ProjectsContainer = styled.section`
       transition: all 0.2s ease-in-out;
     }
   }
+  @media screen and (max-width: 1000px) {
+    article {
+      width: 90%;
+      height: 90%;
+      margin: 5%;
+      margin: 50px 0px 20px;
+    }
+}
+
 `;

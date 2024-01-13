@@ -16,6 +16,19 @@ export const HeaderContainer = styled.div`
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
   padding-top: 15px;
   z-index: 10;
+  @media screen and (max-width: 1000px) {
+    font-size: 1em;
+    padding-top: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 170px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    h1 {
+      margin: 5px 5px 0px;
+    }
+  }
 `;
 
 export const HeaderMenu = styled.div`
@@ -40,5 +53,14 @@ export const HeaderMenu = styled.div`
   }
   svg {
     font-size: 30px;
+  }
+  @media screen and (max-width: 1000px) {
+  a {
+    padding: 0px;
+    margin: 0px 20px;
+  }
+  svg {
+    font-size: 50px;
+  }
   }
 `;
