@@ -14,12 +14,12 @@ export const data = [
   },
   {
     id: 'iChoveu',
-    location: iChoveu,
-    images: 'src/assets/imagens/ichoveu/search.png',
+    location: 'https://github.com/netoelix/project-iChoveu',
+    images: iChoveu,
   },
   {
     id: 'StarWars Planets',
-    location: StarWars,
-    images: 'src/assets/imagens/starwars/home.png',
+    location: 'https://github.com/netoelix/project-starwars-planets',
+    images: StarWars,
   },
 ];
