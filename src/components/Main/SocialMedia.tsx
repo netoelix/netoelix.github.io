@@ -3,7 +3,9 @@ import { BsInstagram, BsGithub, BsLinkedin, BsRocket }
 
 function SocialMedia() {
   return (
+  // All icons were taken from the React Icons library, all rights reserved to the library owner.
     <nav>
+      {/* All icons were taken from the React Icons library, all rights reserved to the library owner. */}
       <a href="https://www.linkedin.com/in/elixneto/" target="_blank" rel="noreferrer">
         <BsLinkedin />
       </a>

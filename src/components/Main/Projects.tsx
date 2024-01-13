@@ -9,7 +9,13 @@ function Projetos() {
           return (
             <article key={ id }>
               <h3>{id}</h3>
-              <a href={ location } target="_blank" rel="noreferrer">Repositório</a>
+              <a
+                href={ location }
+                target="_blank"
+                rel="noreferrer"
+              >
+                Clique aqui para acessar o repositório
+              </a>
               <div className="carouselImg">
                 <img
                   key={ id }

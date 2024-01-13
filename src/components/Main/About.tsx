@@ -15,34 +15,30 @@ function About() {
           </h2>
           <Skills />
           <p>
-            Sou estudante na Trybe, cursando desenvolvimento web full-stack,
-            e atualmente resido no entorno de Brasília-DF.
-            Meu objetivo é realizar uma transição de carreira da área de
-            hotelaria para o campo do desenvolvimento.
+            Atualmente, sou um desenvolvedor front-end em ascensão,
+            avançando no curso de desenvolvimento web full stack na Trybe,
+            resido no entorno de Brasília-DF.
+            Estou empenhado em realizar uma transição de carreira da área
+            de hotelaria para o campo do desenvolvimento,
+            ansioso para aplicar de maneira criativa e inovadora os
+            conhecimentos que venho adquirindo.
             <br />
             <br />
-            Estou muito animado com a oportunidade de expandir meus conhecimentos
-            na área de desenvolvimento web e aplicá-los de forma criativa e inovadora.
-            Tenho grande paixão por aprender e estou disposto a enfrentar os desafios
-            que essa trajetória possa me proporcionar.
+            Minha paixão pelo aprendizado e disposição para enfrentar
+            desafios são motores essenciais nessa jornada de crescimento.
+            Estou entusiasmado com a perspectiva de contribuir com
+            equipes de desenvolvimento em projetos desafiadores e empolgantes.
+            Acredito que a combinação das habilidades adquiridas na hotelaria,
+            aliadas às novas competências desenvolvidas na Trybe,
+            me tornará um profissional completo e dedicado à excelência.
             <br />
             <br />
-            Estou ansioso para contribuir com as equipes de desenvolvimento em
-            projetos desafiadores e empolgantes.
-            <br />
-            <br />
-            Acredito que a combinação de minhas habilidades adquiridas na hotelaria,
-            juntamente com as novas habilidades que venho desenvolvendo na Trybe,
-            me tornará um profissional completo e comprometido com a excelência.
-            <br />
-            <br />
-            Estou confiante de que essa mudança de carreira me levará a um futuro
-            promissor no campo do desenvolvimento web. Grato pela atenção e pela
-            oportunidade de compartilhar um pouco sobre meus objetivos e motivações.
-            <br />
-            <br />
-            Estou entusiasmado com a perspectiva de contribuir positivamente para
-            a equipe e para os projetos futuros.
+            Confio plenamente que essa mudança de carreira me
+            conduzirá a um futuro promissor no campo do desenvolvimento web.
+            Agradeço pela atenção e pela oportunidade de compartilhar
+            um pouco sobre meus objetivos e motivações.
+            Estou empolgado com a perspectiva de contribuir
+            positivamente para a equipe e para os projetos futuros.
           </p>
         </article>
       </SectionContainer>

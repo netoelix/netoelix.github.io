@@ -7,8 +7,10 @@ import { HeaderMenu } from '../../styles/StiledHeader';
 function Menu() {
   const dispatch = useDispatch();
   return (
+    // All icons were taken from the React Icons library, all rights reserved to the library owner.
     <HeaderMenu>
       <nav>
+        {/* All icons were taken from the React Icons library, all rights reserved to the library owner. */}
         <NavLink
           onClick={ () => dispatch({ type: 'SAVE_PATH', payload: { path: '/home' } }) }
           to="/home"
