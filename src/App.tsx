@@ -1,4 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
+// eslint-disable-next-line import/no-unresolved
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Layout from './components/Layout';
 import Home from './components/Main/Home';
 import NotFound from './components/NotFound';
@@ -20,6 +22,7 @@ function App() {
           <Route path="*" element={ <NotFound /> } />
         </Route>
       </Routes>
+      <SpeedInsights />
     </>
   );
 }
