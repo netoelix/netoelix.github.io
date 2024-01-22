@@ -23,7 +23,7 @@ function Header() {
           {nameUser.name}
           ,
           {' '}
-          este são os meus projetos.
+          estes são os meus projetos.
         </h1>
       );
     }
@@ -33,7 +33,7 @@ function Header() {
           {nameUser.name}
           ,
           {' '}
-          este são os meus certificados.
+          estes são os meus certificados.
         </h1>
       );
     }
