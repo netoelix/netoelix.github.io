@@ -1,6 +1,7 @@
 import javascript from '../../assets/certificados/javascript.jpg';
 import fundamentos from '../../assets/certificados/modulo-fundamentos.jpg';
 import frontEnd from '../../assets/certificados/modulo-front-end.jpg';
+import trybeAWS from '../../assets/certificados/TrybeAWS.png';
 import { CertificatesContainer } from '../../styles/StyledCertificates';
 
 function Certificates() {
@@ -22,6 +23,15 @@ function Certificates() {
             src={ fundamentos }
             alt="Certificado de conclusão do modulo de Fundamentos
                de Desenvolvimento Web"
+          />
+        </div>
+      </article>
+      <article>
+        <h3>Bootcamp: IA Generativa com AWS</h3>
+        <div>
+          <img
+            src={ trybeAWS }
+            alt="Certificado de conculão do Bootcamp: IA Generativa com AWS"
           />
         </div>
       </article>
