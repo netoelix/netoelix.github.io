@@ -8,9 +8,8 @@ Este documento descreve o projeto pessoal "Elix Merlino Neto", uma página desen
 
 - React: Utilizado para criar a estrutura do conteúdo da página.
 - React Component: Utilizado para estilizar a página, definindo cores, fontes, posicionamento dos elementos e efeitos visuais.
-- Typescript: Utilizado para adicionar interatividade à página, incluindo botões de clique para expandir e recolher informações adicionais.
-- Fetch API: Utilizado para buscar e carregar dados do arquivo JSON externo contendo informações sobre os projetos.
-- JSON: Utilizado para armazenar informações estruturadas sobre os projetos, como título, descrição, tecnologias, recursos e links.
+- Typescript: Linguagem base da apliação.
+- Redux: Utilizado para manipular o estado global entre os componentes.
 
 ## Características Principais
 
@@ -20,7 +19,7 @@ A página apresenta informações sobre Elix Merlino Neto, sua trajetória profi
 
 ### 2. Seção "Projetos"
 
-Uma seção dedicada a mostrar projetos desenvolvidos por Elix. Cada projeto é apresentado com um título, botão de clique para expandir/recolher informações adicionais e um link para o projeto. As informações incluem detalhes sobre as tecnologias utilizadas, funcionamento do projeto e recursos empregados.
+Uma seção dedicada a mostrar os principais projetos desenvolvidos por Elix. Cada projeto é apresentado com um título, link para o repositório e uma imagem.
 
 ## Objetivo
 
@@ -28,11 +27,11 @@ O objetivo principal deste projeto é fornecer uma plataforma para Elix Merlino 
 
 ## Acesso à Página
 
-A página "Elix Merlino Neto" pode ser acessada através do seguinte link: [https://netoelix.github.io/](https://netoelix.github.io/)
+A página "Elix Merlino Neto" pode ser acessada através do seguinte link: [Portifólio](https://netoelix.vercel.app/)
 
 ## Conclusão
 
-O projeto "Elix Merlino Neto" é um testemunho da paixão de Elix Merlino Neto pela área de desenvolvimento web e sua determinação em realizar uma mudança de carreira significativa. Através do uso de tecnologias como HTML, CSS e JavaScript, a página oferece uma experiência envolvente para os visitantes conhecerem sua história e seus projetos.
+O projeto "Elix Merlino Neto" é um testemunho da paixão de Elix Merlino Neto pela área de desenvolvimento web e sua determinação em realizar uma mudança de carreira significativa. Através do uso de tecnologias como React, Typescript e Redux, a página oferece uma experiência envolvente para os visitantes conhecerem sua história e seus projetos.
 
 Data: 11 de Janeiro de 2024
 Autor: Elix Merlino Neto
