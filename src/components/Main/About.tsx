@@ -17,8 +17,7 @@ function About() {
           <Skills />
           <p>
             Atualmente, sou um desenvolvedor front-end em ascensão,
-            avançando no curso de desenvolvimento web full stack na Trybe,
-            resido no entorno de Brasília-DF.
+            resido em Brasília-DF.
             Estou empenhado em realizar uma transição de carreira da área
             de hotelaria para o campo do desenvolvimento,
             ansioso para aplicar de maneira criativa e inovadora os

@@ -1,4 +1,4 @@
-import { BsInstagram, BsGithub, BsLinkedin, BsRocket }
+import { BsInstagram, BsGithub, BsLinkedin }
   from 'react-icons/bs';
 
 function SocialMedia() {
@@ -14,9 +14,6 @@ function SocialMedia() {
       </a>
       <a href="https://www.instagram.com/elixneto/" target="_blank" rel="noreferrer">
         <BsInstagram />
-      </a>
-      <a href="https://www.betrybe.com/" target="_blank" rel="noreferrer">
-        <BsRocket />
       </a>
     </nav>
   );

@@ -5,7 +5,7 @@ function Projetos() {
   return (
     <ProjectsContainer>
       <div>
-        {data.map(({ id, location, images }) => {
+        {data.map(({ id, location, images, site }) => {
           return (
             <article key={ id }>
               <h3>{id}</h3>
@@ -23,6 +23,13 @@ function Projetos() {
                   alt={ id }
                 />
               </div>
+              <a
+                href={ site }
+                target="_blank"
+                rel="noreferrer"
+              >
+                Clique aqui para acessar a página
+              </a>
             </article>
           );
         })}

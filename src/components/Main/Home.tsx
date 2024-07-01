@@ -11,7 +11,7 @@ function Home() {
           <img src={ profilePicture } alt="profile" />
           <section>
             <h2>Elix Merlino Neto</h2>
-            <h3>Desenvolvedor Web</h3>
+            <h3>Desenvolvedor Front End</h3>
             <SocialMedia />
           </section>
         </ImgContainer>
