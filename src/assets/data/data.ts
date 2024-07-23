@@ -26,7 +26,7 @@ export const data = [
   {
     id: 'Diário de um RPG',
     location: 'https://github.com/netoelix/alien-rpg',
-    site: 'https://diario-alien-rpg.vercel.app/',
+    site: 'https://diariodeumrpg.com/',
     images: DiarioRPG,
   },
 ];
